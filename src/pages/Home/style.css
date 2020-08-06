@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+body {
+  background: #1a1a1a;
+}
+
+div.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div.home-container img.logo {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.5s;
+  position: absolute;
+  opacity: 0.7;
+  animation: bounceEffect 5s infinite; /* IE 10+, Fx 29+ */
+  -webkit-animation: bounceEffect 5s infinite; /* Safari 4+ */
+  -moz-animation: bounceEffect 5s infinite; /* Fx 5+ */
+  -o-animation: bounceEffect 5s infinite; /* Opera 12+ */
+}
+div.home-container img.soccerplayer {
+  width: 500px;
+  position: absolute;
+  opacity: 1;
+  left: 60%;
+}
+
+div.home-container img.logo:hover {
+  cursor: pointer;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+
+section.hiddenForm {
+  visibility: hidden;
+  color: #fff;
+}
+
+section.visibleForm {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-animation: useopacity 0.3s; /* Safari 4+ */
+  -moz-animation: useopacity 0.3s; /* Fx 5+ */
+  -o-animation: useopacity 0.3s; /* Opera 12+ */
+  animation: useopacity 0.3s; /* IE 10+, Fx 29+ */
+}
+
+section.inLogin {
+  height: 400px;
+}
+
+section.visibleForm div.headerSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #363636;
+}
+
+section.visibleForm div.headerSection div.choose {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+section.visibleForm div.headerSection div.choose p {
+  color: #ccc;
+  margin-top: 10;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  background-color: #313131;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px 0px 10px;
+  margin-top: 11px;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+section.visibleForm div.headerSection div.choose p:hover {
+  background-color: #363636;
+}
+
+section.visibleForm div.headerSection div.choose p.activeNav {
+  background-color: #252525;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+}
+
+section.visibleForm div.close {
+  background-color: #a02c2c;
+  color: #fff;
+  height: 30px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+section.visibleForm div.close:hover {
+  background-color: #861c1c;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+@-webkit-keyframes useopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes useopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes useopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes useopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounceEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes bounceEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes bounceEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounceEffect {
+  0% {
+    margin-top: -20px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -20px;
+  }
+}
