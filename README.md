@@ -3,14 +3,14 @@
 ![GitHub](https://img.shields.io/github/license/Nick3n/Bounce-3D-League)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Nick3n/Bounce-3D-League)
 
-Tabela de conteúdos
+### Tabela de conteúdos
 =================
 
- * [Instalação](#instalacao)
- * [Pré-Requisitos](#pre-requisitos)
- * [Rodando em Sua Máquina](#rodando-em-sua-maquina)
- * [Tecnologias](#tecnologias)
- * [Screenshots](#screenshots)
+ * Instalação
+ * Pré-Requisitos
+ * Rodando em Sua Máquina
+ * Tecnologias
+ * Screenshots
 
 ### Pré-requisitos
 
