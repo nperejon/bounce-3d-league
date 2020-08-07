@@ -1,7 +1,6 @@
 # Bounce 3D League - Login/Register
 ## Amostragem de página inicial com visualização de login e registro em abas.
 ![GitHub](https://img.shields.io/github/license/Nick3n/bounce-3d-league-login-register)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/Nick3n/bounce-3d-league-login-register)
 
 ### Tabela de conteúdos
 =================
