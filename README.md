@@ -22,10 +22,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Nick3n/Bounce-3D-League
+$ git clone https://github.com/Nick3n/bounce-3d-league
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Bounce-3D-League
+$ cd bounce-3D-league
 
 # Instale as dependências
 $ npm install
@@ -50,7 +50,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <img alt="Aba Cadastro" title="#AbaCadastro" src="https://imgur.com/vX6XfBT.png" />
 </h1>
 
- # 	🚧  Em construção...  🚧
+ # 	Funcionalidades
 - [x] Página Inicial
 - [x] Aba de Login
 - [x] Aba de Cadastro
