@@ -6,8 +6,8 @@
 ### Tabela de conteúdos
 =================
 
- * Instalação
  * Pré-Requisitos
+ * Instalação
  * Rodando em Sua Máquina
  * Tecnologias
  * Screenshots
