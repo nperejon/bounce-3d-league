@@ -22,7 +22,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Nick3n/bounce-3d-league
+$ git clone git@github.com:Nick3n/bounce-3d-league.git
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd bounce-3D-league
