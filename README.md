@@ -54,4 +54,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Página Inicial
 - [x] Aba de Login
 - [x] Aba de Cadastro
-- [ ] Aperfeiçoamento
