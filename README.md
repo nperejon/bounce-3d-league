@@ -11,6 +11,7 @@
  * Rodando em Sua Máquina
  * Tecnologias
  * Screenshots
+ * Funcionalidades
 
 ### Pré-requisitos
 
